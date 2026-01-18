@@ -1,0 +1,145 @@
+.project-detail-container {
+    padding: 6rem 10% 4rem;
+    background-color: #f8fafc;
+    min-height: 100vh;
+}
+
+.back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: #4b5563;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    transition: color 0.3s;
+}
+
+.back-btn:hover {
+    color: #7c3aed;
+}
+
+.project-detail-content {
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
+}
+
+.detail-image-container {
+    width: 100%;
+    height: 400px;
+    background: #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.detail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.detail-info {
+    padding: 3rem;
+}
+
+.detail-header {
+    margin-bottom: 2rem;
+}
+
+.detail-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: #1f2937;
+    margin-bottom: 0.5rem;
+}
+
+.detail-category {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background: #f3f0ff;
+    color: #7c3aed;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.detail-description {
+    font-size: 1.1rem;
+    line-height: 1.7;
+    color: #4b5563;
+    margin-bottom: 2rem;
+}
+
+.stack-section {
+    margin-bottom: 2rem;
+}
+
+.stack-title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #374151;
+}
+
+.stack-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.8rem;
+}
+
+.stack-tag {
+    background: #f1f5f9;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    color: #475569;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.detail-actions {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.action-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    border-radius: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.action-btn:hover {
+    transform: translateY(-2px);
+}
+
+.btn-source {
+    background: #1f2937;
+    color: white;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .project-detail-container {
+        padding: 5rem 1.5rem 3rem;
+    }
+
+    .detail-image-container {
+        height: 250px;
+    }
+
+    .detail-title {
+        font-size: 2rem;
+    }
+
+    .detail-info {
+        padding: 1.5rem;
+    }
+}
