@@ -99,16 +99,16 @@ const Portfolio = () => {
             </div>
 
             <div className="portfolio-header">
-                <div className="portfolio-label">
+                {/* <div className="portfolio-label">
                     <span className="label-icon">✦</span>
                     <span>My Work</span>
-                </div>
+                </div> */}
 
                 <h2 className="portfolio-title">Explore My <span className="highlight">Portfolio</span></h2>
                 <h3 className="portfolio-subtitle">Real-world projects that combine creativity, performance, and scalability.</h3>
 
                 <div className="portfolio-controls">
-                    <div className="search-bar">
+                    {/* <div className="search-bar">
                         <Search className="search-icon" size={20} />
                         <input
                             type="text"
@@ -116,7 +116,7 @@ const Portfolio = () => {
                             value={searchQuery}
                             onChange={(e) => setSearchQuery(e.target.value)}
                         />
-                    </div>
+                    </div> */}
 
                     <div className="filter-tabs">
                         {filters.map(filter => (

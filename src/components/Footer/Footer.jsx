@@ -14,11 +14,11 @@ const Footer = () => {
         <footer className="footer-section">
             <div className="footer-content">
                 {/* Logo */}
-                <div className="footer-logo-container">
+                {/* <div className="footer-logo-container">
                     <div className="footer-logo-circle">
                         <span>G</span>
                     </div>
-                </div>
+                </div> */}
 
                 {/* Navigation */}
                 <nav className="footer-nav">
@@ -30,7 +30,7 @@ const Footer = () => {
 
                 {/* Copyright */}
                 <div className="footer-copyright">
-                    © 2024 All rights reserved by <span className="brand-name">ThemeJunction</span>
+                    © 2024 All rights reserved by <span className="brand-name">J.Manikandan</span>
                 </div>
             </div>
 

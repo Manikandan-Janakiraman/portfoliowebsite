@@ -54,7 +54,7 @@
 
 /* Layout - Minimalist Centered */
 .about-content-wrapper.centered-layout {
-    max-width: 900px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 5%;
     display: flex;
@@ -68,7 +68,7 @@
 }
 
 .reveal-line {
-    font-size: 2.2rem;
+    font-size: 2rem;
     line-height: 1.6;
     color: var(--text-primary);
     font-weight: 600;

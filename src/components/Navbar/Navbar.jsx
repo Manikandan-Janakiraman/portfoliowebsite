@@ -20,10 +20,13 @@ const Navbar = () => {
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <Link to="/" className="logo">
-                    <span className="logo-symbol">J.</span> Manikandan
-                </Link>
+                {/* <Link to="/" className="logo">
+                  
+                </Link> */}
+                {/* <span className="logo-symbol">J.Manikandan</span>  */}
 
+                <h1 className="new">J.Manikandan</h1>
+                
                 {/* Desktop Menu */}
                 <ul className="nav-menu">
                     <li><Link to="/" className={isActive('/')}>Home</Link></li>

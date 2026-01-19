@@ -1,5 +1,7 @@
 .footer-section {
-    background-color: var(--bg-secondary);
+    background-color: #0b042c;
+
+    /* var(--bg-secondary); */
     /* Darker than body in dark mode */
     padding: 6rem 0 3rem;
     position: relative;
@@ -43,11 +45,14 @@
 }
 
 .footer-link {
-    color: var(--text-secondary);
+    /* color: var(--text-secondary); */
     /* Text primary is too bright? Or good? */
     /* Original was #f1f5f9 (primary), muted on hover? */
     /* Original was #f1f5f9. Hover #a855f7. */
-    color: var(--text-primary);
+    /* color: var(--text-primary); */
+    color: white;
+
+
     text-decoration: none;
     font-size: 1rem;
     font-weight: 500;
@@ -60,12 +65,14 @@
 
 .footer-copyright {
     font-size: 0.9rem;
-    color: var(--text-secondary);
+    /* color: var(--text-secondary); */
+    color:#ffffff;
     margin-top: 2rem;
 }
 
 .brand-name {
-    color: var(--text-primary);
+    /* color: var(--text-primary); */
+    color: #ffffff;
     font-weight: 600;
 }
 

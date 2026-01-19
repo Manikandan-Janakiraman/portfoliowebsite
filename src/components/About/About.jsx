@@ -10,7 +10,7 @@ const About = () => {
                 <div className="marquee-track">
                     {[1, 2, 3, 4].map((i) => (
                         <span key={i} className="marquee-content">
-                            // Leadership // Enterprise // Business Growth // Corporate // Results // Innovation // Success &nbsp;
+                            MERN Stack Developer | Front End Developer | UI Developer &nbsp;
                         </span>
                     ))}
                 </div>
@@ -19,9 +19,17 @@ const About = () => {
             {/* Minimalist Centered Content */}
             <div className="about-content-wrapper centered-layout">
                 <div className="about-reveal-text center-text">
-                    <p className="reveal-line">I’m a passionate web developer specializing in building modern, responsive web applications using React and JavaScript.</p>
-                    <p className="reveal-line" style={{ transitionDelay: '0.2s' }}>I enjoy turning complex problems into simple, user-friendly solutions.</p>
-                    <p className="reveal-line" style={{ transitionDelay: '0.4s' }}>With a strong focus on clean code and performance, I continuously learn new technologies to improve my development skills.</p>
+                    <p className="reveal-line">
+                        I am an aspiring web developer with hands-on experience in building responsive and interactive web applications.
+
+
+                    </p>
+                    <p className="reveal-line" style={{ transitionDelay: '0.2s' }}>
+                        I specialize in React, JavaScript, HTML, and CSS, focusing on clean and efficient code. I enjoy transforming ideas into user-friendly digital solutions.
+                    </p>
+                    <p className="reveal-line" style={{ transitionDelay: '0.4s' }}>
+                        I am continuously learning new technologies to improve my skills. My goal is to grow as a developer and contribute to impactful real-world projects.
+                    </p>
                 </div>
             </div>
         </section>

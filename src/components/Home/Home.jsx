@@ -32,12 +32,12 @@ const Home = () => {
                     <a href="#portfolio" className="btn-primary">
                         View My Work <ArrowRight size={18} />
                     </a>
-                    <a href="#contact" className="btn-secondary">
+                    {/* <a href="#contact" className="btn-secondary">
                         <Download size={18} /> Let's Connect
-                    </a>
+                    </a> */}
                 </div>
 
-                <div className="stats-row">
+                {/* <div className="stats-row">
                     <div className="stat-item">
                         <span className="stat-number">14</span>
                         <div className="stat-text">
@@ -59,7 +59,7 @@ const Home = () => {
                             <span>Clients</span>
                         </div>
                     </div>
-                </div>
+                </div> */}
             </div>
 
             {/* Right Content - Code Window */}
@@ -94,10 +94,10 @@ const Home = () => {
                                 <Phone /> <span>+9198844 85312</span>
                             </div>
                             <div className="contact-item">
-                                <Github /> <span>Github</span>
+                                <Github /> <span><a href="https://github.com/Manikandan-Janakiraman" target='_blank'>Github</a></span>
                             </div>
                             <div className="contact-item">
-                                <Linkedin /> <span>LinkedIn</span>
+                                <Linkedin /> <span><a href="https://www.linkedin.com/in/JManikandan" target='_blank'>LinkedIn</a></span>
                             </div>
                         </div>
                     </div>
