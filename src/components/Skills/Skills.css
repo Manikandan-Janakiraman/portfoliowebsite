@@ -4,11 +4,15 @@
     text-align: center;
     color: var(--text-primary);
     transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    overflow: hidden;
 }
 
 .skills-content {
     max-width: 1200px;
     margin: 0 auto;
+    position: relative;
+    z-index: 2;
 }
 
 .skills-header {
@@ -89,7 +93,7 @@
 
 .skill-name {
     font-size: 1rem;
-    color: var(--primary-color);
+    color: var(--text-primary);
     font-weight: 500;
 }
 

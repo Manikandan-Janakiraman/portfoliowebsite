@@ -1,5 +1,6 @@
 import React from 'react';
-import { ArrowUp } from 'lucide-react';
+import { Facebook, Twitter, Linkedin, ArrowUp } from 'lucide-react';
+import PlexusBackground from './PlexusBackground';
 import './Footer.css';
 
 const Footer = () => {
@@ -12,31 +13,45 @@ const Footer = () => {
 
     return (
         <footer className="footer-section">
-            <div className="footer-content">
-                {/* Logo */}
-                {/* <div className="footer-logo-container">
-                    <div className="footer-logo-circle">
-                        <span>G</span>
-                    </div>
-                </div> */}
+            <PlexusBackground />
+            <div className="footer-divider top"></div>
 
-                {/* Navigation */}
-                <nav className="footer-nav">
-                    <a href="#about" className="footer-link">About</a>
-                    <a href="#portfolio" className="footer-link">Services</a> {/* Mapping Portfolio to Services usually, or just use names */}
-                    <a href="#portfolio" className="footer-link">Portfolios</a>
-                    <a href="#contact" className="footer-link">Contact</a>
+            <div className="footer-top-content">
+                <nav className="footer-main-nav">
+                    <a href="#home">HOME</a>
+                    <a href="#about">ABOUT ME</a>
+                    <a href="#services">SERVICES</a>
+                    <a href="#portfolio">PORTFOLIO</a>
+                    <a href="#blog">NEWS & BLOG</a>
+                    <a href="#contact">CONTACT US</a>
                 </nav>
 
-                {/* Copyright */}
-                <div className="footer-copyright">
-                    © 2024 All rights reserved by <span className="brand-name">J.Manikandan</span>
+                <div className="footer-social-links">
+                    <a href="https://facebook.com" className="social-link" target="_blank" rel="noopener noreferrer">
+                        <div className="social-icon-wrapper"><Facebook size={16} /></div>
+                        <span>Facebook</span>
+                    </a>
+                    <a href="https://twitter.com" className="social-link" target="_blank" rel="noopener noreferrer">
+                        <div className="social-icon-wrapper"><Twitter size={16} /></div>
+                        <span>Twitter</span>
+                    </a>
+                    <a href="https://linkedin.com" className="social-link" target="_blank" rel="noopener noreferrer">
+                        <div className="social-icon-wrapper"><Linkedin size={16} /></div>
+                        <span>Linkedin</span>
+                    </a>
                 </div>
             </div>
 
-            {/* Scroll Top Button */}
+            <div className="footer-divider bottom"></div>
+
+            <div className="footer-bottom-bar">
+                <div className="footer-copyright">
+                    Copyrights Reserved @ <span className="highlight">J.Manikandan</span>
+                </div>
+            </div>
+
             <button className="scroll-top-btn" onClick={scrollToTop}>
-                <ArrowUp size={20} />
+                <ArrowUp size={24} />
             </button>
         </footer>
     );

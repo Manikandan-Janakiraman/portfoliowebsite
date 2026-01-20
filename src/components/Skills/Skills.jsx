@@ -1,5 +1,6 @@
 import React from 'react';
 import { SiFigma, SiSketch, SiAdobexd, SiWordpress, SiReact, SiJavascript } from 'react-icons/si';
+import PlexusBackground from '../Footer/PlexusBackground';
 import './Skills.css';
 
 const Skills = () => {
@@ -14,6 +15,7 @@ const Skills = () => {
 
     return (
         <section className="skills-section" id="skills">
+            <PlexusBackground />
             <div className="skills-content">
                 <div className="skills-header">
                     <h2 className="skills-title">My Skills</h2>
@@ -27,7 +29,7 @@ const Skills = () => {
                         <div key={index} className="skill-item">
                             <div className="skill-card">
                                 <div className="skill-icon">{skill.icon}</div>
-                                <div className="skill-percentage">{skill.percentage}</div>
+                                {/* <div className="skill-percentage">{skill.percentage}</div> */}
                             </div>
                             <span className="skill-name">{skill.name}</span>
                         </div>
