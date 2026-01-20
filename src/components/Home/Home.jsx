@@ -82,6 +82,12 @@ const Home = () => {
                                 <span className="keyword">export default class</span> <span className="class-name">FullStackDeveloper</span> <span className="keyword">extends</span> <span className="class-name">Craftsman</span>
                             </span>
                             <span className="code-line">{'{'}</span>
+                            <span className="code-line indent">
+                                <span className="variable">name</span> = <span className="string">"J.Manikandan"</span>;
+                            </span>
+                            <span className="code-line indent">
+                                <span className="variable">role</span> = <span className="string">"Full stack developer"</span>;
+                            </span>
                             <span className="cursor"></span>
                             <span className="code-line">{'}'}</span>
                         </div>

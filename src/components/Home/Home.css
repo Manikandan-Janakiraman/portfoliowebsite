@@ -321,6 +321,14 @@
     color: #34d399;
 }
 
+.indent {
+    padding-left: 1.5rem;
+}
+
+.variable {
+    color: #818cf8;
+}
+
 .cursor {
     display: inline-block;
     width: 8px;
